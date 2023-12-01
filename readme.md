@@ -86,7 +86,19 @@ touch .env
 ```
 touch .env.example
 ```
+```
+Armazenar isso no .env.example
 
+# DEFINIÇÂO DA PORTA DO SErVIDor EXPRESS
+PORT = 3008
+
+#VARIÁVEIS DE CENEXÃO COM BANCO
+DB_HOST = 'localhost'
+DB_USER = 'root'
+DB_PASSWORD = 'root'
+DB_DATABASE = 'turma_2at'
+DB_PORT = 3308 (opicional)
+```
 * Criar pasta routes
 ```
 mkdir routes
